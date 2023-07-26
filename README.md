@@ -8,8 +8,12 @@ Contributions to this repository are welcome. If you find any issues or want to 
 - Uploading / creating new files are not accepted.
 - Code should follow proper alignments and conventions.
 
-## Authors 🖋️
-| [Avik Agarwala](https://github.com/AvikAgarwala) | [Alik Agarwala](https://github.com/Alik-Agarwala) |
-|---|---|
+## Collaborators
+
+<!-- readme: collaborators -start -->
+<!-- readme: collaborators -end -->
 
 ## Contributors
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
