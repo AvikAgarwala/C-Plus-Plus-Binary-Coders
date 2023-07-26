@@ -8,3 +8,7 @@ Contributions to this repository are welcome. If you find any issues or want to 
 - File names should follow dash separated format (eg: `binary-search.cpp`).
 - File names should be in small letters.
 - Source code should follow proper alignments and conventions.
+
+## Authors
+| [Avik Agarwala](https://github.com/AvikAgarwala) | [Alik Agarwala](https://github.com/Alik-Agarwala) |
+|---|---|
