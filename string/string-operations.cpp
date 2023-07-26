@@ -21,12 +21,12 @@ int main()
     cout << str2.compare(str1) << endl;
 
     // append
-    str1="Bin", str2="ary";
+    str1 = "Bin", str2 = "ary";
     str1.append(str2);
     cout << str1 << endl;
 
     // append
-    str1="Bin";
+    str1 = "Bin";
     str1.append("ary");
     cout << str1 << endl;
 
