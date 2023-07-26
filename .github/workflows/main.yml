@@ -1,0 +1,13 @@
+- name: contributor_list
+  # You may pin to the exact commit or the version.
+  # uses: cjdenio/contributor_list@bdfd334c14a951fb1e441cf717aadfeed94731d3
+  uses: cjdenio/contributor_list@1.1
+  with:
+    # The commit message when updating the README.md
+    commit_message: # optional, default is Update contributors list
+    # Max number of contributors shown
+    max_contributors: # optional, default is 10
+    # Whether or not to display the number of contributions
+    show_numbers: # optional
+    # Markdown heading level for the contributors section
+    header_level: # optional, default is 2
