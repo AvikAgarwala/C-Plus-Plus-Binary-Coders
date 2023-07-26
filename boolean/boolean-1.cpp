@@ -15,6 +15,6 @@ int main()
 
     check = false;
     cout << check << endl;
-    
+
     return 0;
 }
