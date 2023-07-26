@@ -29,7 +29,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sudiptamazumdar"><img src="https://avatars.githubusercontent.com/u/139207924?v=4?s=100" width="100px;" alt="Sudipta Mazumdar"/><br /><sub><b>Sudipta Mazumdar</b></sub></a><br /><a href="https://github.com/AvikAgarwala/C-Plus-Plus-Binary-Coders/commits?author=sudiptamazumdar" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sudiptamazumdar"><img src="https://avatars.githubusercontent.com/u/139207924?v=4?s=100" width="100px;" alt="Sudipta Mazumdar"/><br /><sub><b>Sudipta Mazumdar</b></sub></a><br /><a href="https://github.com/AvikAgarwala/C-Plus-Plus-Binary-Coders/commits?author=sudiptamazumdar" title="Code">💻</a> <a href="#design-sudiptamazumdar" title="Design">🎨</a></td>
     </tr>
   </tbody>
 </table>
