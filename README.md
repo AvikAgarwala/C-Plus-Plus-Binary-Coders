@@ -11,14 +11,3 @@ Contributions to this repository are welcome. If you find any issues or want to 
 ## Authors 🖋️
 | [Avik Agarwala](https://github.com/AvikAgarwala) | [Alik Agarwala](https://github.com/Alik-Agarwala) |
 |---|---|
-
-## Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
