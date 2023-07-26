@@ -9,12 +9,12 @@ int main()
 
     cout << endl;
 
-    for (string i : arr)
+    for (string i : arr) // traversing using iterator
         cout << i << " ";
 
     cout << endl;
 
-    for (auto i : arr)
+    for (auto i : arr) // traversing using iterator
         cout << i << " ";
 
     return 0;
