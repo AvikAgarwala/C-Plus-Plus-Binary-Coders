@@ -12,21 +12,11 @@ Contributions to this repository are welcome. If you find any issues or want to 
 | [Avik Agarwala](https://github.com/AvikAgarwala) | [Alik Agarwala](https://github.com/Alik-Agarwala) |
 |---|---|
 
-## Contributors ✨
-
-Thanks goes to these wonderful people:
+## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sudiptamazumdar"><img src="https://avatars.githubusercontent.com/u/139207924?v=4?s=100" width="100px;" alt="Sudipta Mazumdar"/><br /><sub><b>Sudipta Mazumdar</b></sub></a><br /><a href="https://github.com/AvikAgarwala/C-Plus-Plus-Binary-Coders/commits?author=sudiptamazumdar" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ankikadey"><img src="https://avatars.githubusercontent.com/u/98796194?v=4?s=100" width="100px;" alt="Ankika Dey"/><br /><sub><b>Ankika Dey</b></sub></a><br /><a href="#design-ankikadey" title="Design">🎨</a></td>
-    </tr>
-  </tbody>
-</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
