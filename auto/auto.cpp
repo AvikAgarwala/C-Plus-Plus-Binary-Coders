@@ -13,6 +13,6 @@ int main()
     auto pptr = &ptr;
     cout << *ptr << endl;
     cout << **pptr << endl;
-    
+
     return 0;
 }
