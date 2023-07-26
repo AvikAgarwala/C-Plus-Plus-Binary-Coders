@@ -11,3 +11,5 @@ Contributions to this repository are welcome. If you find any issues or want to 
 ## Authors 🖋️
 | [Avik Agarwala](https://github.com/AvikAgarwala) | [Alik Agarwala](https://github.com/Alik-Agarwala) |
 |---|---|
+
+## Contributors
