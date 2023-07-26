@@ -29,12 +29,12 @@ int binarySearch(int *arr, int n, int key)
         int mid = low + (high - low) / 2; // calculating the mid index
 
         if (arr[mid] == key)
-            return mid; // element found
+            return mid; // key found
         else if (key < arr[mid])
             high = mid - 1; // updating the high pointer
         else
             low = mid + 1; // updating the low pointer
     }
 
-    return -1; // if the loop finishes, then value not found
+    return -1; // key not found
 }
