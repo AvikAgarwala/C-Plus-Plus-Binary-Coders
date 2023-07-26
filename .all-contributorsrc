@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "sudiptamazumdar",
+      "name": "Sudipta Mazumdar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139207924?v=4",
+      "profile": "https://github.com/sudiptamazumdar",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "C-Plus-Plus-Binary-Coders",
+  "projectOwner": "AvikAgarwala"
+}
