@@ -12,5 +12,6 @@ int main()
     cin >> x >> y;
     cout << "Value of x is " << x << endl;
     cout << "Value of y is " << y << endl;
+    
     return 0;
 }
