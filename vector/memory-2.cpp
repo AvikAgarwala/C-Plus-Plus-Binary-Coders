@@ -14,5 +14,6 @@ int main()
     v.shrink_to_fit();
 
     cout << v.size() << " " << v.capacity() << endl;
+    
     return 0;
 }
