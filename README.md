@@ -1,1 +1,1 @@
-C++ codes for 💻 Binary Coders community (🔒 private community)
+C++ codes for 💻Binary Coders community (🔒private community)
