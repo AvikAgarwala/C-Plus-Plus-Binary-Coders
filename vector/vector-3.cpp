@@ -9,11 +9,11 @@ int main()
     v.push_back(2);
     v.push_back(3);
 
-    cout << v.empty() << endl;
+    cout << v.empty() << endl; //output 0 and 0 means not empty
 
     v.clear();
 
-    cout << v.empty() << endl;
+    cout << v.empty() << endl; // output 1 and 1 means empty
     
     return 0;
 }
