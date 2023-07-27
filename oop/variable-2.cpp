@@ -4,7 +4,7 @@ using namespace std;
 class Animal
 {
 public:
-    string name;
+    string name; // class variable
     void tellName()
     {
         cout << "My name is " << name << endl;
