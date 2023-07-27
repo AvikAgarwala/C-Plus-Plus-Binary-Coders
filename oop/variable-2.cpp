@@ -5,6 +5,7 @@ class Animal
 {
 public:
     string name; // class variable
+    
     void tellName()
     {
         cout << "My name is " << name << endl;
