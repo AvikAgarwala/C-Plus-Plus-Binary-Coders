@@ -12,7 +12,7 @@ public:
     }
 };
 
-void updateDetails(Student &ptr)
+void updateDetails(Student &ptr) // accepting as reference
 {
     ptr.name = "TestName";
     ptr.roll = 404;
