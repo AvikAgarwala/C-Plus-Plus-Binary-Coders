@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
-{
+{   
     int **mat1 = new int *[3];
     int **mat2 = new int *[3];
 
@@ -13,22 +13,22 @@ int main()
 
     for (int i = 0; i < 3; i++)
         for (int j = 0; j < 3; j++)
-            cin >> mat1[i][j];
+            cin >> mat1[i][j]; // taking inputs for matrix 1
 
     for (int i = 0; i < 3; i++)
         for (int j = 0; j < 3; j++)
-            cin >> mat2[i][j];
+            cin >> mat2[i][j]; // taking inputs for matrix 2
 
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
-            cout << mat1[i][j] + mat2[i][j] << " ";
+            cout << mat1[i][j] + mat2[i][j] << " "; // printing sum of matrices
         cout << endl;
     }
 
     for (int i = 0; i < 3; i++)
-    {
-        delete mat1[i];
+    {   
+        delete mat1[i]; 
         delete mat2[i];
     }
 
