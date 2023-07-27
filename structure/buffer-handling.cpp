@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-struct Student
+
+struct Student // user defined datatype
 {
     int roll;
     char sec;
