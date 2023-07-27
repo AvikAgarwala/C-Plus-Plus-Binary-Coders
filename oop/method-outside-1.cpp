@@ -16,5 +16,6 @@ int main()
 {
     Animal dog;
     dog.eat();
+
     return 0;
 }
