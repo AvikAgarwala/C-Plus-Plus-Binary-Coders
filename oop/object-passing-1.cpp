@@ -12,6 +12,7 @@ void printDetails(Student temp) // passing object
 {
     cout << temp.name << " " << temp.roll << endl;
 }
+
 int main()
 {
     Student s1;
