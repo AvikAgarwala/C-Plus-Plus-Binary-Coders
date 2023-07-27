@@ -5,6 +5,11 @@ class Animal
 {
 public:
     string name; // class variable
+
+    void setName(string str) // local variable
+    {
+        name = str;
+    }
     
     void tellName()
     {
@@ -16,8 +21,8 @@ int main()
 {
     Animal dog, cat;
 
-    dog.name = "Lucky";
-    cat.name = "Tom";
+    dog.setName("Lucky");
+    cat.setName("Tom");
 
     dog.tellName();
     cat.tellName();
