@@ -3,27 +3,27 @@ using namespace std;
 int main()
 {
     int row, col;
-    cin >> row >> col; // taking input of row and coloumn nummber individually
-    //memory allocating for rows
-    int **arr = new int *[row]; // int** arr means pointer to pointer
+    cin >> row >> col; // taking row and coloumn numbers as input
+    
+    int **arr = new int *[row];
 
     for (int i = 0; i < row; i++)
-        arr[i] = new int[col]; // memory allocating for coloumns
+        arr[i] = new int[col];
 
-    for (int i = 0; i < row; i++)
+    for (int i = 0; i < row; i++) // taking array inputs
         for (int j = 0; j < col; j++)
-            cin >> arr[i][j]; // taking input for the array
+            cin >> arr[i][j];
 
-    for (int i = 0; i < row; i++)
+    for (int i = 0; i < row; i++) // printing the array elements
     {
         for (int j = 0; j < col; j++)
-            cout << arr[i][j] << " "; // printing the whole array
+            cout << arr[i][j] << " ";
         cout << endl;
     }
 
-    for (int i = 0; i < row; i++)
-        delete arr[i]; // to deallocate the individual array to prevent memory leakage
-    delete arr; // to deallocate the main array
+    for (int i = 0; i < row; i++) // memory de-allocation
+        delete arr[i];
+    delete arr;
 
     return 0;
 }
