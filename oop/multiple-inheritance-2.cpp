@@ -17,13 +17,14 @@ public:
 
 class C : public A, public B // derived class
 {
-    
+
 };
 
 int main()
 {
     C obj;
-    cout << obj.var << endl;
+    cout << obj.var << endl; // 'var' is ambiguous
 
     return 0;
 }
+
