@@ -1,4 +1,4 @@
-// THIS CODE WILL GIVE AN ERROR !
+// THIS CODE WILL GIVE AN ERROR!
 
 #include <iostream>
 using namespace std;
