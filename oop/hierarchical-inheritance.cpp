@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 class A // base class
 {
 public:
@@ -12,7 +15,7 @@ public:
 
 class C : public A // derived class
 {
-    
+
 };
 
 int main()
