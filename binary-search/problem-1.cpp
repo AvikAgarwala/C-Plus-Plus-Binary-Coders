@@ -22,16 +22,16 @@ int main()
 
 int findTotalOccurrence(int arr[], int n, int key, bool check)
 {
-    int low = 0, high = n - 1, result = - 1; 
+    int low = 0, high = n - 1, result = -1; 
     while (low <= high)
     {
         int mid = low + (high - low) / 2; // calculating the mid index
         if (arr[mid] == key)
         {
             result = mid; // key found
-            if (check) // check value is true 
+            if (check) // if check value is true 
                 high = mid - 1;
-            else  // check value if false
+            else  // if check value is false
                 low = mid + 1;
         }
         else if (key < arr[mid])
