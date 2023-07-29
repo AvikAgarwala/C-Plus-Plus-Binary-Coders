@@ -6,6 +6,8 @@ We encourage contributions to this repository. If you come across any issues or 
 - Only members of the Binary Coders community have the privilege to upload or create new files.
 - Please ensure that your code follows proper alignments and conventions for enhanced readability.
 
+---
+
 ### Authors
 
 <table>
