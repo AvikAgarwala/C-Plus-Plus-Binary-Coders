@@ -7,12 +7,12 @@ int main()
 {
     int n; // array size
     cin >> n;
-    int arr[n]; // Array declaration
+    int arr[n]; // array declaration
 
     for (int i = 0; i < n; i++) // input array elements
         cin >> arr[i];
 
-    int key; // Element we want to find
+    int key; // element we want to find
     cin >> key;
 
     cout << findFirstOccurrence(arr, n, key) << endl;
@@ -24,7 +24,7 @@ int findFirstOccurrence(int arr[], int n, int key)
     int low = 0, high = n - 1, result = -1;
     while (low <= high)
     {
-        int mid = low + (high - low) / 2; // Calculating mid index
+        int mid = low + (high - low) / 2; // calculating mid index
         if (arr[mid] == key)
         {
             result = mid; // key found
