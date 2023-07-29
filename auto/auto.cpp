@@ -11,7 +11,7 @@ int main()
     auto v = 2;
     auto ptr = &v; // int*
     auto pptr = &ptr; // int**
-    cout << *ptr << endl; 
+    cout << *ptr << endl;
     cout << **pptr << endl;
 
     return 0;
