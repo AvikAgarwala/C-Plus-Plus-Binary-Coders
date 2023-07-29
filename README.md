@@ -55,6 +55,13 @@ We encourage contributions to this repository. If you come across any issues or 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Arghadeeps07">
+            <img src="https://avatars.githubusercontent.com/u/112500013?v=4" width="100;" alt="Arghadeeps07"/>
+            <br />
+            <sub><b>ARGHADEEP SARKAR</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/sudiptamazumdar">
             <img src="https://avatars.githubusercontent.com/u/139207924?v=4" width="100;" alt="sudiptamazumdar"/>
             <br />
