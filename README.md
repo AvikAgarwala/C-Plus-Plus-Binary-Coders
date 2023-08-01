@@ -75,5 +75,13 @@ We encourage contributions to this repository. If you come across any issues or 
             <sub><b>Ankika Dey</b></sub>
         </a>
     </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/BanerjeeRajdeep">
+            <img src="https://avatars.githubusercontent.com/u/111561385?v=4" width="100;" alt="BanerjeeRajdeep"/>
+            <br />
+            <sub><b>Rajdeep Banerjee</b></sub>
+        </a>
+    </td></tr>
 </table>
 <!-- readme: contributors -end -->
