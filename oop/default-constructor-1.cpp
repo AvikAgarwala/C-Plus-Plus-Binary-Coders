@@ -4,7 +4,6 @@ using namespace std;
 class Student
 {
 public:
-    //default constructor
     string name;
     string univ = "ABC University";
 };
