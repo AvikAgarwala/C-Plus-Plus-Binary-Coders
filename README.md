@@ -1,3 +1,5 @@
+---
+
 # C++ codes for 💻Binary Coders community (🔒private community)
 
 We encourage contributions to this repository. If you come across any issues or have ideas for improvements, please don't hesitate to open a pull request. Your input is highly appreciated!
@@ -27,6 +29,8 @@ We encourage contributions to this repository. If you come across any issues or 
         </a>
     </td></tr>
 </table>
+
+---
 
 ### Contributors
 
@@ -85,3 +89,5 @@ We encourage contributions to this repository. If you come across any issues or 
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
+
+---
