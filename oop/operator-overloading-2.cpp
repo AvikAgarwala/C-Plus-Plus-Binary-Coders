@@ -21,7 +21,9 @@ public:
 int main()
 {
     ComplexNumber c1(3, 7);
+    
     ++c1;
+    
     cout << c1.real << endl;
     
     return 0;
