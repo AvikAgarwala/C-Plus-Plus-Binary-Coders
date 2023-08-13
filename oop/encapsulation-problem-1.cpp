@@ -4,7 +4,7 @@ using namespace std;
 
 class ShoppingSystem
 {
-    vector<int> priceList; // stores the price of all items in the cart
+    vector<int> priceList; // stores the price of item in the cart
 public:
     void addToCart(int itemPrice) // adds the item price to the priceList vector
     {
