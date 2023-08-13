@@ -16,7 +16,7 @@ public:
     }
     void removeLastPurchasedItem() 
     {
-        priceList.pop_back();  // remove last item from priceList vector
+        priceList.pop_back(); // remove last item from priceList vector
         priceList.shrink_to_fit();
     }
     int calculateTotalPrice()
