@@ -10,16 +10,16 @@ public:
         this->real = real;
         this->imaginary = imaginary;
     }
-    ComplexNumber operator++()
+    ComplexNumber operator++()  // prefix operator overloading
     {
-        real += 2;
-        return *this;
+        real += 2; // increment real part by 2
+        return *this; 
     }
 };
 int main()
 {
     ComplexNumber c1(3, 7);
-    ++c1;
+    ++c1; // first increment then store
     cout << c1.real << endl;
     return 0;
 }
