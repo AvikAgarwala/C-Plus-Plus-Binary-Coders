@@ -4,33 +4,33 @@ using namespace std;
 
 class ShoppingSystem
 {
-    vector<int> priceList;
+    vector<int> priceList; //This is a private vector that stores the price of all items in the cart.
 public:
-    void addToCart(int itemPrice)
+    void addToCart(int itemPrice) //Add the item price to the priceList vector
     {
-        priceList.push_back(itemPrice);
+        priceList.push_back(itemPrice); 
     }
     int totalItemPurchased()
     {
-        return priceList.size();
+        return priceList.size(); // Get the size of the priceList vector.
     }
-    void removeLastPurchasedItem()
+    void removeLastPurchasedItem() 
     {
-        priceList.pop_back();
+        priceList.pop_back();  // Remove last item from pricelist vector
         priceList.shrink_to_fit();
     }
     int calculateTotalPrice()
     {
         int totalPrice = 0;
-        for (int i : priceList)
+        for (int i : priceList) // Iteration
             totalPrice += i;
         return totalPrice;
     }
-    bool isCartEmpty()
+    bool isCartEmpty() // Check if priceList vector is empty
     {
         return priceList.empty();
     }
-    void removeAllPurchasedElementFromCart()
+    void removeAllPurchasedElementFromCart() // Clear all priceList vector
     {
         priceList.clear();
         priceList.shrink_to_fit();
