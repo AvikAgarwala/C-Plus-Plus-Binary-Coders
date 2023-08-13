@@ -7,7 +7,7 @@ public:
     void eat(); // prototype
 };
 
-void Animal::eat() // method of Animal class
+void Animal::eat() // method of Animal class using scope resolution operator
 {
     cout << "I can eat." << endl;
 }
