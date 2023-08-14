@@ -1,44 +1,46 @@
 #include <iostream>
 using namespace std;
 
-class parent1
+class Parent1
 {
 public:
     virtual void display()
     {
-        cout << "parent display" << endl;
+        cout << "Parent display" << endl;
     }
 };
 
-class parent2
+class Parent2
 {
 public:
     virtual void identity()
     {
-        cout << "I am a child" << endl;
+        cout << "Parent identity" << endl;
     }
 };
 
-class child : public parent1, public parent2
+class Child : public Parent1, public Parent2
 {
 public:
     void display()
     {
-        cout << "child dispaly" << endl;
+        cout << "Child dispaly" << endl;
     }
     void identity()
     {
-        cout << "I am grand child " << endl;
+        cout << "Child identity" << endl;
     }
 };
 
 int main()
 {
-    child c1;
-    
-    parent1 *ptr = &c1;
+    Child c1;
 
-    ptr->display();
+    Parent1 *ptr1 = &c1;
+    Parent2 *ptr2 = &c1;
+
+    ptr1->display();
+    ptr2->identity(); // can't use ptr1->identity() as identity() is not defined in Parent1
 
     return 0;
 }
