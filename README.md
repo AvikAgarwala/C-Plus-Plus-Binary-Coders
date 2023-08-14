@@ -86,6 +86,13 @@ We encourage contributions to this repository. If you come across any issues or 
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Ishita-Das-1202">
+            <img src="https://avatars.githubusercontent.com/u/108291902?v=4" width="100;" alt="Ishita-Das-1202"/>
+            <br />
+            <sub><b>Ishita Das</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/BanerjeeRajdeep">
             <img src="https://avatars.githubusercontent.com/u/111561385?v=4" width="100;" alt="BanerjeeRajdeep"/>
             <br />
