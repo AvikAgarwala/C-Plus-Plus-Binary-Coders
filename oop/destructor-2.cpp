@@ -7,11 +7,9 @@ public:
     // constructors
     Student()
     {
-
     }
     Student(int roll)
     {
-        
     }
 
     // destructor
