@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class parent1
 {
 public:
@@ -8,6 +9,7 @@ public:
         cout << "parent display" << endl;
     }
 };
+
 class parent2
 {
 public:
@@ -16,6 +18,7 @@ public:
         cout << "I am a child" << endl;
     }
 };
+
 class child : public parent1, public parent2
 {
 public:
@@ -32,6 +35,7 @@ public:
 int main()
 {
     child c1;
+    
     parent1 *ptr = &c1;
 
     ptr->display();
