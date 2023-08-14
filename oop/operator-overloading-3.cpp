@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class ComplexNumber
 {
 public:
@@ -17,9 +18,12 @@ public:
         return tempObject; // returning the temporary state
     }
 };
+
 int main()
 {
     ComplexNumber c1(5, 9);
+    
     cout << (c1++).real << " " << c1.real << endl;
+    
     return 0;
 }

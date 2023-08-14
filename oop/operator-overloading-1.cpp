@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class ComplexNumber
 {
 public:
@@ -18,11 +19,16 @@ public:
         return result;
     }
 };
+
 int main()
 {
     ComplexNumber c1(5, 2), c2(3, 1);
+    
     ComplexNumber c3(0, 0);
+    
     c3 = c1 + c2;
+    
     cout << c3.real << " " << c3.imaginary << endl;
+    
     return 0;
 }

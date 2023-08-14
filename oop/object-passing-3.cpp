@@ -12,7 +12,7 @@ public:
     }
 };
 
-void updateDetails(Student *ptr)
+void updateDetails(Student *ptr) //pass by reference using pointer
 {
     ptr->name = "TestName";
     ptr->roll = 404;
