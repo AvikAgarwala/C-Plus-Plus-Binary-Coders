@@ -10,7 +10,7 @@ public:
     }
 };
 
-class Child : public Parent // child class inherited in parent class
+class Child : public Parent
 {
 public:
     void display()
@@ -23,9 +23,9 @@ int main()
 {
     Child c1;
 
-    Parent *ptr = &c1; // pointer to class type
+    Parent *ptr = &c1;
 
-    ptr->display(); // will follow the  late binding due to the use of virtual keyword
+    ptr->display(); // will follow the late binding due to the use of virtual keyword
     
     return 0;
 }
