@@ -4,7 +4,7 @@ using namespace std;
 class Parent
 {
 public:
-    virtual void display()
+    virtual void display() // virtual function
     {
         cout << "I am parent" << endl;
     }
@@ -25,7 +25,7 @@ int main()
 
     Parent *ptr = &c1;
 
-    ptr->display(); // will follow the  late binding due to the use of virtual keyword
+    ptr->display(); // will follow the late binding due to the use of virtual keyword
     
     return 0;
 }
